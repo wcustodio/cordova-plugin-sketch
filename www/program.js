@@ -602,7 +602,9 @@ function handleSelectionBoxGestureChange(evt)
 //we may need figure out a way to show different commands according to different plugin
 function setView()
 {
-    if (window.innerWidth <= 320) {
+    if (window.sketch.hideStrokeConfig) {
+        appbar.showOnlyCommands(["Clear", "Done", "Cancel"], true);
+    } else if (window.innerWidth <= 320) {
         appbar.showOnlyCommands(["Clear", "Done", "Cancel"], true);
     // } else if (window.innerWidth <= 768) {
     //     appbar.showOnlyCommands(["Save", "Done", "Clear", "Cancel"], true);
