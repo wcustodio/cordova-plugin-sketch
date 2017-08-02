@@ -24,10 +24,10 @@ if(navigator.sketch != null && navigator.sketch != undefined){
   '                                    {id:\'InkWidth\', label:\'Width\',icon:\'edit\',     section:\'global\',type:\'flyout\',flyout:\'InkWidthFlyout\',tooltip:\'Choose ink width\'},'+
   '                                    {type:\'separator\',id:\'sep\'},'+
   '                                    {id:\'ModeErase\', label:\'Erase\', icon:\'undo\', onclick:eraseMode, section:\'global\',tooltip:\'Switch pen tip to eraser mode\'},'+
-  '                                    {id:\'Clear\', label:\'Clear\', icon:\'clear\', onclick:clear},'+
+  '                                    {id:\'Clear\', label:\'Limpar\', icon:\'clear\', onclick:clear},'+
   '                                    {type:\'separator\',id:\'sep\'},'+
-  '                                    {id:\'Done\', label:\'Done\', icon:\'accept\', onclick:done},'+
-  '                                    {id:\'Cancel\', label:\'Cancel\', icon:\'cancel\', onclick:cancel}]}">'+
+  '                                    {id:\'Done\', label:\'OK\', icon:\'accept\', onclick:done},'+
+  '                                    {id:\'Cancel\', label:\'Cancelar\', icon:\'cancel\', onclick:cancel}]}">'+
   '  </div>'+
   '<div id="InkColorFlyout" data-win-control="WinJS.UI.Menu"'+
   '        data-win-options="{commands:[{id:\'Black\',label:\'Black\',onclick:inkColor},'+
